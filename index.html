@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake House</title>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $(".CakesMenu").click(function(){
+                $("html, body").animate({scrollTop:$(".cakes").offset().top - 60}, 1000);
+                return false;
+            });
+            $(".Service").click(function(){
+                $("html, body").animate({scrollTop:$(".service").offset().top - 60}, 1000);
+                return false;
+            });
+            $(".ChefMenu").click(function(){
+                $("html, body").animate({scrollTop:$(".chef").offset().top - 60}, 1000);
+                return false;
+            });
+            $(".ContactMenu").click(function(){
+                $("html, body").animate({scrollTop:$(".contact").offset().top - 60}, 1000);
+                return false;
+            });
+        });
+    </script>
+
+</head>
+<body>
+    <!-- <h3>중앙에 위치한 로고와 양측면에 위치한 메뉴들</h3>
+    <nav class="testHead">
+        <ul>
+            <li><a href="#">메뉴1</a></li>
+            <li><a href="#">메뉴2</a></li>
+            <li><a href="#"><img src="./img/logo.png" alt=""></a></li>
+            <li><a href="#">메뉴3</a></li>
+            <li><a href="#">메뉴4</a></li>
+        </ul>
+    </nav> -->
+
+    <!-- position : sticky;의 적용은 body의 바로 하단에 적용 -->
+
+
+        <div class="List_SNS">
+            <div class="wrap01">
+                <div class="List">
+                    <img src="./img/phone.png" alt="전화">&nbsp;  
+                    <span> +45 827 3846</span>
+                    &nbsp;&nbsp;&nbsp;
+                   <img src="./img/email.png" alt="전화">&nbsp;<span>cb_chef@cb.br</span>
+                </div>
+
+                <div class="SNS">
+                    <ul>
+                        <li><a href=""><img src="./img/sns-icon/youtube.png" alt="유튜브"></a></li>
+                        <li><a href=""><img src="./img/sns-icon/pinterest.png" alt="핀터레스트"></a></li>
+                        <li><a href=""><img src="./img/sns-icon/facebook.png" alt="페이스북"></a></li>
+                        <li><a href=""><img src="./img/sns-icon/insta.png" alt="인스타그램"></a></li>
+                        <li><a href=""><img src="./img/sns-icon/twitter.png" alt="트위터"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <nav class="menu">
+            <div class="wrap02">
+                <ul>
+                    <li class="CakesMenu"><a href="#">Cakes</a></li>
+                    <li class="Service"><a href="#">Service</a></li>
+                    <li><a href="#" class="LogoMenu"><img src="./img/logo.png" alt=""></a></li>
+                    <li class="ChefMenu"><a href="#">Chofs</a></li>
+                    <li class="ContactMenu"><a href="#">Contant</a></li>
+                </ul>
+            </div>
+        </nav>
+    
+
+    <!-- main1 -->
+    <section id="main1">
+        <div class="wrap">
+            <div class="content">
+                <div class="title">
+                <h1>Quality Produts...</h1>
+                <h1>with sweet, eggs & breads</h1>
+                </div>
+                <div class="subtitile">
+                    <p>This drastic appeal for baked goods promoted baking all throughout</p>
+                    <p>Eroupe and expended into the eatern parts of Asia</p>
+                </div>
+                <span>See the recipe</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- main2 -->
+    <section id="main2" class="cakes">
+        <div class="wrap">
+            <div class="title">
+                <h2>Our Featured Cakes</h2>
+                <h4>Cake & Bakery make delicious products</h4>
+            </div>
+
+            <div class="product">
+                <!-- 1 -->
+                <div class="image">
+                    <div class="img_intxt">
+                        <h3>Chocho Cupcake</h3>
+                        <p>$8.00</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="image">  
+                    <div class="img_intxt">
+                        <h3>Happy Glory</h3>
+                        <p>$35.00</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>    
+                <!-- 3 -->
+                <div class="image"> 
+                    <div class="img_intxt">
+                        <h3>Choco Berry</h3>
+                        <p>$7.50</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+                <!-- 4 -->
+                <div class="image">
+                    <div class="img_intxt">
+                        <h3>Chocho Cupcake</h3>
+                        <p>$8.00</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>    
+                <!-- 5 -->
+                <div class="image">
+                    <div class="img_intxt">
+                        <h3>Chocho Brownie</h3>
+                        <p>$8.00</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+                <!-- 6 -->
+                <div class="image">
+                    <div class="img_intxt">
+                        <h3>Berry Pie</h3>
+                        <p>$8.00</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+                <!-- 7 -->
+                <div class="image">
+                    <div class="img_intxt">
+                        <h3>Sugar Party</h3>
+                        <p>$40.00</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+                <!-- 8 -->
+                <div class="image">
+                    <div class="img_intxt">
+                        <h3>Cute Bunny</h3>
+                        <p>$52.00</p>
+                        <a href="#">Add to Cart</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="main3" class="service">
+        <div class="wrap">
+            <div class="title">
+                <h2>Offer Service</h2>
+                <div class="bar"></div>
+            </div>
+
+            <div class="content">
+                <!-- 1 -->
+                <div class="box">
+                    <div class="inner">
+                        <div class="icon">
+                            <img src="./img/offer-1.png" alt="Cup Cake Image">
+                        </div>
+                        <div class="txt">
+                            <h4>Cookie Cakes</h4>
+                            <p>We offer the best cookies cakes. We can send out a delicious treats on your behalf.</p>
+                        </div>
+                        <a href="" class="moreBtn">More</a>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="box">
+                    <div class="inner">
+                        <div class="icon">
+                            <img src="./img/offer-2.png" alt="Cup Cake Image">
+                        </div>
+                        <div class="txt">
+                            <h4>Tasty Cupcakes</h4>
+                            <p>Our Tasty cupcakes are so tasty that 
+                                if you taste once you will fall in love 
+                                instantly.</p>
+                        </div>
+                    </div>
+                    <a href="" class="moreBtn">More</a>
+                </div>
+
+                <!-- 3 -->
+                <div class="box">
+                    <div class="inner">
+                        <div class="icon">
+                            <img src="./img/offer-3.png" alt="Cup Cake Image">
+                        </div>
+                        <div class="txt">
+                            <h4>Wedding Cakes</h4>
+                            <p>CELEBRATE YOUR TEAM, THANK 
+                                COLLEAGUES AND IMPRESS CLIENTS 
+                                WITH SOMETHING SWEET AND 
+                                MEMORABLE!</p>
+                        </div>
+                    </div>
+                    <a href="" class="moreBtn">More</a>
+                </div>
+
+                <!-- 4 -->
+                <div class="box">
+                    <div class="inner">
+                        <div class="icon">
+                            <img src="./img/offer-4.png" alt="Cup Cake Image">
+                        </div>
+                        <div class="txt">
+                            <h4>Awesome Recipes</h4>
+                            <p>These old methods of baking were 
+                                almost completely eradicated when 
+                                these new methods were 
+                                introduced and became industrialised.
+                            </p>
+                        </div>
+                    </div>
+                    <a href="" class="moreBtn">More</a>
+                </div>
+
+                <!-- 5 -->
+                <div class="box">
+                    <div class="inner">
+                        <div class="icon">
+                            <img src="./img/offer-5.png" alt="Cup Cake Image">
+                        </div>
+                        <div class="txt">
+                            <h4>Menu Planner</h4>
+                            <p>A light, sour wheat dough with 
+                                roasted walnuts and freshly picked 
+                                rosemary, thyme, poppy seeds, 
+                                parsley and sage.</p>
+                        </div>
+                    </div>
+                    <a href="" class="moreBtn">More</a>
+                </div>
+
+            <!-- 6 -->
+                <div class="box">
+                    <div class="inner">
+                        <div class="icon">
+                            <img src="./img/offer-6.png" alt="Cup Cake Image">
+                        </div>
+                        <div class="txt">
+                            <h4>Home Delivery</h4>
+                            <p>you find our competitors offering 
+                                better quality for even same price, 
+                                we will offer you same product for 
+                                free.
+                            </p>
+                        </div>
+                    </div>
+                    <a href="" class="moreBtn">More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="main4" class="chef">
+        <div class="wrap">
+            <div class="title">
+                <h2>Our Chefs</h2>
+                <p>Pastry chefs specialise in making pastries, desserts, breads and other baked dishes. These chefs are vital in a restaurant kitchen and we’ve got a growing list of famous pastry chefs from around the world.</p>  
+            </div>
+            <div class="content">
+                <!-- 1 -->
+                <div class="box">
+                    <div class="image">
+                        <div class="chef_image"></div>
+                    </div>
+                    <div class="text">
+                        <h4>Smith. G</h4>
+                        <p>Smith. G skills as a pastry chef helped him create a line of successful shops.</p>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="box">
+                    <div class="image">
+                        <div class="chef_image"></div>
+                    </div>
+                    <div class="text">
+                        <h4>Elizabeth Falkner</h4>
+                        <p>Elizabeth Falkner is a pastry    chef, chef, author, TV personality, artist and culinary instigator.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- 3 -->
+                <div class="box">
+                    <div class="image">
+                        <div class="chef_image"></div>
+                    </div>
+                    <div class="text">
+                        <h4>Duff Goldman</h4>
+                        <p>You might have seen Duff Goldman on the reality TV show Ace of Cakes which features his Charm City Cakes shop.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="main5" class="contact"> <!-- position:relative -->
+        <div id="map"></div>
+        <div class="content_space"> <!-- positon:absolute -->
+            <div class="wrap">
+                <div class="contact_box">
+                    <div class="title_part">
+                        <h2>Contact Us</h2>
+                        <p>Our Company is the best, meet the 
+                            creative team that never sleeps. Say 
+                            something to us we will answer to you.</p>
+                    </div>
+
+                    <div class="input_part">
+                        <form action="" method="post">
+                            <div class="inputLine">
+                                <input type="text" name="name" placeholder="NAME" autocomplete="off" required>
+                            </div>
+                            <div class="inputLine">
+                                <input type="email" name="email" placeholder="EMAIL" autocomplete="off" required>
+                            </div>
+                            <div class="inputLine">
+                                <input type="number" name="phone" autocomplete="off" placeholder="PHONE NUMBER" required>
+                            </div>
+                            <div class="inputLine">
+                                <input type="text" name="message" autocomplete="off" placeholder="YOUR MESSAGE" required>
+                            </div>
+
+                            <div class="inputBtn">
+                                <button type="submit"><span>SEND MESSAGE</span></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMOwJdqgkxI6MQb4E95pSSBF1TABF5pZA&callback=initMap"></script>
+    <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAs0f1jRgqGpm31rMjDb7JLfmeay-qOK3A&callback=initMap"></script> -->
+    <script>
+        function initMap() { 
+            var uluru = {lat: 51.519987, lng: -0.156517}; //lat(latitude, 위도), lng(longitude, 경도)
+            var map = new google.maps.Map(document.getElementById('map'), { 
+                zoom: 18, 
+                center: uluru 
+            }); 
+            var marker = new google.maps.Marker({ position: uluru, map: map }); 
+        }
+    </script>
+
+
+    <!-- footer -->
+
+        <footer>
+            <div class="top">
+                <div class="wrap">
+                    <div class="title">
+                        <img src="./img/footer_logo.png" alt="">
+                        <p>We also make cupcakes, eclairs, 
+                            profiteroles, scones, slices and many 
+                            other sweet delicacie
+                        </p>
+                    </div>
+                
+                    <div class="content">
+                        <!-- 1 -->
+                        <div class="f_info">
+                            <h4>Quick links</h4>
+                            <ul>
+                                <li><a href="">Your Account</a></li>
+                                <li><a href="">View Order</a></li>
+                                <li><a href="">Privacy Policy</a></li>
+                                <li><a href="">Terms & Conditionis</a></li>
+                            </ul>
+                        </div>
+                        <!-- 2 -->
+                        <div class="f_info">
+                            <h4>Work Times</h4>
+                            <ul>
+                                <li><p>Mon. : Thu.: 8 am - 8 pm</p></li>
+                                <li><p>Fri. : 8 am - 8 pm</p></li>
+                                <li><p>Sat. : 9am - 4pm</p></li>
+                                <li><p>Sun. : Closed</p></li>
+                            </ul>
+                        </div>
+                        <!-- 3 -->
+                        <div class="f_info">
+                            <h4>Contact Info</h4>
+                            <ul>
+                                <li><p>(1800) 574 9687</p></li>
+                                <li><p>Cakecious Store</p></li>
+                                <li><p>256, baker Street, New York, 5245
+                                </p></li>
+                                <li><p>cakeciousdemo@email.com</p></li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+        </div> <!-- /.top -->
+
+            <div class="bottom">
+                <div class="wrap">
+                    <p>Cakecious © 2021 All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+    <!-- <h3>중간교육 : 마우스 오버시 하단으로부터 내부 콘텐츠를 올라오게 구성한다</h3>
+    <div id="midEdu1">
+        <div class="cover_bgc">
+            <h3>title</h3>
+            <p>content</p>
+            <a href="">Detail More</a>
+        </div>
+    </div>
+
+    <h3>중간 교육 : 영역의 확장에 또 다른 콘텐츠 넣기</h3>
+    <div id="midEdu2">
+        <h3>title</h3>
+        <h4>subtitle</h4>
+    </div> -->
+
+    <!-- <h3>중간 교육 : 기존 영역보다 확장된 상태의 콘텐츠 영역</h3>
+    <div class="wrap_test">
+        <h3>title</h3>
+        <div class="cont_test">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+        </div> -->
+
+
+</body>
+</html>
